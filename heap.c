@@ -1,3 +1,25 @@
+
+/*Heap Functions
+In heap data structures, there are two main types: Max Heap and Min Heap.
+
+Max Heap
+The parent node is always greater than or equal to its child nodes.
+The maximum element is stored at the root (top) of the heap.
+Applications:
+Used in priority queues, heap sort, and scheduling problems.
+Min Heap
+The parent node is always smaller than or equal to its child nodes.
+The minimum element is stored at the root (top) of the heap.
+Applications:
+Used in Dijkstra’s algorithm, priority queues, and Huffman coding.
+Real-World Applications of Heap in Machine Learning
+Google TensorFlow uses a priority queue for scheduling GPU/TPU tasks, fetching tasks based on their priority (high or low).
+Recommendation Systems (e.g., Netflix, Amazon) use Min Heaps & Max Heaps in KNN algorithms to find similar users and recommend relevant products efficiently */
+
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
